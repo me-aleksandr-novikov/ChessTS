@@ -2,6 +2,7 @@
 *{
   margin: 0;
   padding: 0;
+  user-select:none;
 }
 
 .App {
@@ -36,9 +37,20 @@
 }
 
 .black{
- background-color: rgb(5, 34, 44);
+ background-color: rgb(38, 63, 71);
 }
 
 .white{
-  background-color: #d1bda2;
+  background-color: #beb2a2;
+}
+
+.selected{
+  background-color: rgb(218, 193, 81);
+}
+
+.available{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #22c022;
 }
